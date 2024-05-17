@@ -1,0 +1,105 @@
+.container{
+
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+}
+
+.container img{
+
+    width: 50vh;
+    height: 50vh;
+    border-radius: 0.5em;
+
+}
+
+hr{
+    
+    height: 55%;
+    width: 0.2%;
+    background-color: black;
+
+}
+
+.linkedin{
+
+    margin-right: 5%;
+    padding: 3%;
+    border-radius: 3em;
+    background-color: #0665c7;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+
+
+.linkedin:hover{
+
+    border: 5vh solid #0665c7;
+    transition: 0.8s;
+
+}
+
+.github{
+
+    color: white;
+    margin-left: 5%;
+    background-color: #1b1f23 ;
+    padding: 3%;
+    border-radius: 3em;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.github:hover{
+
+    border: 5vh solid #1b1f23;
+    transition: 0.8s;
+
+}
+
+@media only screen and (max-width: 700px) {
+    
+    hr{
+
+        transform: rotate(90deg);
+        height: 60%;
+        
+    }
+
+    .container{
+
+        flex-direction: column;
+
+
+    }
+
+    .container img{
+
+        width: 10em;
+        height: 10em;
+        margin-top: 1.5em;
+    
+    }
+
+    .linkedin{
+
+        margin: 5% 5% -13vh 5%;
+        height: 20em;
+        width: 90%;
+    
+    }
+    
+    .github{
+    
+        margin: -13vh 5% 5% 5%;
+        height: 20em;
+        width: 90%;
+    
+    }
+
+}

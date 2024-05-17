@@ -1,0 +1,13 @@
+.form {
+  width: 100%;
+  margin: 2em 0;
+}
+
+@media only screen and (max-width: 700px) {
+  .form input{
+    font-size: 1.1vh;
+  }
+  .form select{
+    font-size: 1.1vh;
+  }
+}

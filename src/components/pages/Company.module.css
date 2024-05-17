@@ -1,0 +1,81 @@
+.container{
+
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92.5%;
+
+}
+
+.company {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.company h1{
+
+    padding-bottom: 0.6%;
+    font-size: 2em;
+    color: #6d6cb9;
+
+}
+
+.container div{
+
+    width: 60%;
+    border: 2px solid black;
+    padding: 4%;
+    border-radius: 7vh;
+    height: auto;
+
+}
+
+.company p{
+
+    padding-bottom: 5%;
+
+}
+
+.company p2{
+
+    color: #6d6cb9;
+
+}
+
+.company li{
+
+    padding: 1%;
+
+}
+
+@media only screen and (max-width: 700px) {
+
+    .company h1{
+
+        padding-bottom: 0.6vh;
+        font-size: 1.5em;
+    
+    }
+    
+    .container div{
+    
+        width: 85%;
+        border: 2px solid black;
+        border-radius: 3vh;
+        padding: 5%;
+        font-size: 0.75em;
+    
+    }
+
+    .container{
+
+        height: 95%;
+
+    }
+
+}
